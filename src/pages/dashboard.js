@@ -1,11 +1,11 @@
 import React from "react";
 import DashLayout from "../components/dashboardLayout";
-import { Paper } from "@mui/material";
+import { Typography } from "@mui/material";
 
 function Dashboard() {
   return (
     <DashLayout>
-      <Paper>Dashboard</Paper>
+      <Typography>Dashboard</Typography>
     </DashLayout>
   );
 }
