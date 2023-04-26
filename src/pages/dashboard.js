@@ -1,12 +1,12 @@
-import React from 'react';
-import Layout from '../components/layout';
-import { Paper } from '@mui/material';
+import React from "react";
+import DashLayout from "../components/dashboardLayout";
+import { Paper } from "@mui/material";
 
 function Dashboard() {
   return (
-    <Layout>
+    <DashLayout>
       <Paper>Dashboard</Paper>
-    </Layout>
+    </DashLayout>
   );
 }
 

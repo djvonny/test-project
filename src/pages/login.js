@@ -1,8 +1,10 @@
 import React, { useState } from "react";
-import Layout from "../components/layout";
 import { Button, Box, Paper, Stack, TextField } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import Layout from "../components/layout";
 
 function Login() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -47,7 +49,12 @@ function Login() {
             alignItems: "center",
           }}
         >
-          <Button fullWidth variant="contained">
+          <Button
+            fullWidth
+            variant="contained"
+            // Need to make api call to make authentication
+            onClick={() => navigate("/dashboard")}
+          >
             Login
           </Button>
         </Box>
