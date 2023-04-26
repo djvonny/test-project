@@ -14,8 +14,7 @@ function NavBar() {
         width: drawerWidth,
         flexShrink: 0,
         "& .MuiDrawer-paper": {
-          height: "calc(100% - 64px)",
-          mt: "64px",
+          pt: "64px",
           width: drawerWidth,
           boxSizing: "border-box",
         },

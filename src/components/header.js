@@ -38,7 +38,7 @@ function Header() {
   };
 
   return (
-    <AppBar position="static" sx={{ height: "64px" }}>
+    <AppBar position="sticky" sx={{ height: "64px" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
